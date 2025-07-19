@@ -18,7 +18,7 @@ Here's a step-by-step breakdown of the n8n setup:
 * **4\. Plug in Your Credentials:**
 
   * Upon importing, you will likely see red indicators in various areas, meaning you need to plug in your own API keys and credentials.  
-  * This includes your **Tavily API key** and **OpenAI API key** in the main workflow.  
+  * This includes your **Tavily API key** and **Gemini API key** in the main workflow.  
   * Additionally, when you open child agents (like the email or calendar agents), you'll need to input your specific credentials for those tools as well. You need to create your own contact list on Airtable and connect the credentials in n8n  
       
 * **5\. Set up the Webhook Trigger:**
@@ -40,7 +40,7 @@ Here's a step-by-step breakdown of the n8n setup:
     * **Tool Listing**: Explicitly list and describe each tool (email agent, calendar agent, Tavily tool, etc.) and explain when to use them.  
     * **Rules**: Include rules for tasks requiring multiple tool calls, e.g., using the contact agent first to grab contact information before hitting another tool.  
     * **Current Date/Time**: Provide access to the current date and time using `$now` function.  
-  * **Chat Model**: The example uses **OpenAI GPT-4o** as the chat model for its reasoning capabilities, especially when multiple steps or tools are required.  
+  * **Chat Model**: The example uses **Gemini 2.5** as the chat model for its reasoning capabilities, especially when multiple steps or tools are required.  
   * **Memory**: Configure "simple memory" (previously "window buffer memory") to separate chat history by user. The **`host` from the webhook** was used as the key for memory storage. The agent can look through five context interactions for chat history.  
 * **8\. Child Agent Workflows (Examples):**
 
