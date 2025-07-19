@@ -26,14 +26,16 @@ This repo includes:
 ## 🚀 Step 1: Set Up `n8n` (The Brain)
 
 > n8n is the backend workflow orchestrator responsible for executing actions like checking your calendar, sending emails, and more.
+Go to [n8n setup.md](n8n%20setup.md) to see the step by step n8n setup
 
 ### ✅ Steps:
 
 1. **Import Workflows**
+   - Go to [n8n website](https://n8n.io/)
    - Download all JSON files in the `n8n/` directory.
-   -  n8n → click "Import from file" → import each JSON workflow.
+   - n8n → click "Import from file" → import each JSON workflow.
 
-2. **Connect Agents**
+3. **Connect Agents**
    - The main workflow (`J.A.R.V.I.S Main Agent`) routes requests to child workflows:
      - `Calendar Agent`
      - `Email Agent`
@@ -41,20 +43,20 @@ This repo includes:
      - `Research Agent`
      
 
-3. **Insert Credentials**
+4. **Insert Credentials**
    - Provide your:
      - Gemini API Key
      - Tavily API Key
      - Airtable credentials (for Contact Agent)
 
-4. **Configure Webhook Trigger**
+5. **Configure Webhook Trigger**
    - Each workflow starts with a webhook (`POST` method).
    - Copy the **test webhook URL** for now.
 
-5. **Respond to Webhook**
+6. **Respond to Webhook**
    - Ensure the final node in each workflow is a **“Respond to Webhook”** block, configured to send the final response after tool execution completes.
 
-6. **Enable Workflows**
+7. **Enable Workflows**
    - Activate all workflows when you're ready for production.
    - Switch Eleven Labs URLs from test to production accordingly.
 
@@ -63,10 +65,12 @@ This repo includes:
 ## 🎙️ Step 2: Set Up Eleven Labs (The Voice)
 
 > Eleven Labs hosts the conversational AI personality — modeled after **J.A.R.V.I.S.** — and connects it to your n8n backend.
+Go to [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) for the step by step Eleven Labs setup
 
 ### ✅ Steps:
 
 1. **Create an Agent**
+   - Go to [Eleven Labs Website](http://elevenlabs.io/) 
    - Go to the **Conversational AI → My Agents**
    - Create a new agent and name it `Jarvis`
 
@@ -93,6 +97,7 @@ This repo includes:
 ## 🌐 Step 3: Set Up Lovable.dev (The Interface)
 
 > Lovable.dev builds your futuristic, voice-driven UI that users will interact with.
+Go to [Lovable Setup.md](Lovable%20Setup.md)
 
 ### ✅ Steps:
 
