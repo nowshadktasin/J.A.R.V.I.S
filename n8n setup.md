@@ -3,11 +3,10 @@ The n8n setup is crucial as it handles all of the actual tool calling in the bac
 Here's a step-by-step breakdown of the n8n setup:
 
 * **1\. Download the n8n Workflows:**
-  * Go to [n8n website](https://n8n.io/) 
-  * All the necessary n8n agents and templates, including the main Jarvis assistant and its child agents, access the JSON from the GitHub.  
+  * Find all the necessary n8n agents and templates, including the main Jarvis assistant and its child agents, access the JSON from the GitHub.  
   * Download the workflows, which include the email agent, calendar agent, research agent, contact agent, and the main Jarvis agent (referred to as the "ultimate personal assistant" template).  
 * **2\. Import Workflows into n8n:**
-
+  * Go to [n8n website](https://n8n.io/) 
   * In n8n, open a new workflow.  
   * Go to the top right corner and click **"Import from file"**.  
   * Select the downloaded n8n workflow files, and they will be imported exactly as provided.  
