@@ -31,7 +31,7 @@ Building the interface for your AI assistant using Lovable.dev involves a step-b
 
   * Once you have the Eleven Labs embed code (obtained from the widget settings in Eleven Labs after configuring your agent), provide it to Lovable.dev.  
   * The embed code looks like this:   
-    “\<elevenlabs-convai agent-id="agent\_01rlo0ffegnxf9waaj5tqhr7ey9p"\>\</elevenlabs-convai\>\<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"\>\</script\>”  
+   > “\<elevenlabs-convai agent-id="agent\_01rlo0ffegnxf9waaj5tqhr7ey9p"\>\</elevenlabs-convai\>\<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"\>\</script\>”  
     You can get it from “Widget” section of the Eleven Labs Agents that you made  
   * Instruct Lovable.dev to embed this code into the app as the **main interface for conversational interaction**. This will display the Eleven Labs voice interface directly in your web application.  
       
