@@ -8,7 +8,7 @@ Building the interface for your AI assistant using Lovable.dev involves a step-b
   * Start by explaining your desired web app. The user began by stating: "I want to build a simple and modern web interface to interact with a voice agent using 11 labs".  
   * The prompt I used:
 
-  “I want to build a simple and modern web interface to interact with a voice agent using
+ > “I want to build a simple and modern web interface to interact with a voice agent using
 
   ElevenLabs. The interface should feel sleek, futuristic, and minimalistic—think clean UI with a 'techy' aesthetic, avoiding unnecessary clutter.
 
@@ -43,7 +43,7 @@ Building the interface for your AI assistant using Lovable.dev involves a step-b
   No unnecessary clutter, just a smooth, engaging experience for interacting with Jarvis.
 
   No extra texts, just simply keep "J.A.R.V.I.S" in the top bottom in a futuristic font.”
-
+>
 * **3\. Embed the Eleven Labs Widget**:
 
   * Once you have the Eleven Labs embed code (obtained from the widget settings in Eleven Labs after configuring your agent), provide it to Lovable.dev.  
