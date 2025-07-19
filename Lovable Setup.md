@@ -2,7 +2,7 @@ Building the interface for your AI assistant using Lovable.dev involves a step-b
 
 * **1\. Access Lovable.dev**:
 
-  * Go to Lovable.dev.   
+  * Go to [Lovable.dev](https://lovable.dev/).   
 * **2\. Initiate the Web App Build with a Natural Language Prompt**:
 
   * Start by explaining your desired web app. The user began by stating: "I want to build a simple and modern web interface to interact with a voice agent using 11 labs".  
