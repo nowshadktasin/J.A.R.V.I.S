@@ -42,7 +42,7 @@ This repo includes:
 
 3. **Insert Credentials**
    - Provide your:
-     - OpenAI API Key
+     - Gemini API Key
      - Tavily API Key
      - Airtable credentials (for Contact Agent)
 
