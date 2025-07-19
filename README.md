@@ -148,4 +148,6 @@ This repo includes:
 Built with sarcasm, precision, and your questionable productivity in mind.  
 _“Now let’s act like you know what you're doing, sir.”_
 
+📺 [Watch this reference video on YouTube](https://www.youtube.com/watch?v=KUvSzvFeZls&t=473s)
+
 ---
