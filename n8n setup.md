@@ -11,7 +11,9 @@ Here's a step-by-step breakdown of the n8n setup:
   * Go to the top right corner and click **"Import from file"**.  
   * Select the downloaded n8n workflow files, and they will be imported exactly as provided.
   * You need to create workflows to import separate files
-    One JSON file for One workflow
+  
+  One JSON file for One workflow
+
 * **3\. Connect Main Jarvis Workflow to Child Agents:**
 
   * The main Jarvis workflow acts as a central router. It has access to four different child agents (email, calendar, contact, content creator) and a Tavily search tool.  
