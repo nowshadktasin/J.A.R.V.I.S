@@ -11,35 +11,20 @@ Building the interface for your AI assistant using Lovable.dev involves a step-b
  > “I want to build a simple and modern web interface to interact with a voice agent using
  ElevenLabs. The interface should feel sleek, futuristic, and minimalistic—think clean UI with a 'techy' aesthetic, avoiding unnecessary clutter.
 > The voice agent is named J.A.R.V.I.S, and users should be able to send voice inputs to the system.
-
 > The spoken input should be transcribed and sent to a webhook endpoint. Once the webhook processes the request, the response should be displayed in the interface, ideally as a message from Jarvis.
-
 >  Core Features:
-
 > Minimal, modern UI: A clean, high-tech feel with subtle animations or UI elements that enhance the experience without overwhelming the user.
-
 >  Voice Interaction: A simple microphone button that allows users to record their voice, which is then transcribed and sent to a webhook.
-
 > Webhook Communication: The transcribed message is sent to a predefined webhook, and the webhook’s response is displayed back in the interface as Jarvis's reply.
-
 >  Sleek Display of Messages: Messages should appear in a chat-style format, distinguishing user messages from Jarvis’s responses.
-
 >  Dark Mode Aesthetic (preferred, but open to variations that fit a modern, AI-driven experience).
-
 >  Tech Preferences:
-
 >  Built with React (if possible) or another modern frontend framework
-
 >  Tailwind CSS for fast and clean styling
-
 >  Integration with ElevenLabs API for voice synthesis
-
 >  Webhooks to send and receive data
-
 >  The result should feel like a futuristic AI assistant interface—clean, intuitive, and efficient.
-
 >  No unnecessary clutter, just a smooth, engaging experience for interacting with Jarvis.
-
 >  No extra texts, just simply keep "J.A.R.V.I.S" in the top bottom in a futuristic font.”
 
 * **3\. Embed the Eleven Labs Widget**:
