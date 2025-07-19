@@ -1,7 +1,7 @@
 # J.A.R.V.I.S
 # 🧠 Jarvis AI Assistant Setup Guide
 
-Welcome to the Jarvis AI Assistant — a voice-based AI system that uses:
+Welcome to the Jarvis AI Assistant , a voice-based AI system that uses:
 
 - 🤖 **n8n** for tool execution and backend routing  
 - 🗣️ **Eleven Labs** for voice-based conversational AI  
@@ -16,10 +16,10 @@ This guide walks you through setting up each component in the correct order.
 This repo includes:
 This repo includes:
 
-• [n8n/](n8n/) — JSON files for all necessary workflows (main agent and child tools)  
-• [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) — Full instructions to configure the voice agent  
-• [n8n setup.md](n8n%20setup.md) — Full backend integration steps  
-• [Lovable Setup.md](Lovable%20Setup.md) — Frontend integration process using Lovable.dev  
+• [n8n/](n8n/) , JSON files for all necessary workflows (main agent and child tools)  
+• [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) , Full instructions to configure the voice agent  
+• [n8n setup.md](n8n%20setup.md) , Full backend integration steps  
+• [Lovable Setup.md](Lovable%20Setup.md) , Frontend integration process using Lovable.dev  
 
 ---
 
@@ -64,7 +64,7 @@ Go to [n8n setup.md](n8n%20setup.md) to see the step by step n8n setup
 
 ## 🎙️ Step 2: Set Up Eleven Labs (The Voice)
 
-> Eleven Labs hosts the conversational AI personality — modeled after **J.A.R.V.I.S.** — and connects it to your n8n backend.
+> Eleven Labs hosts the conversational AI personality, modeled after **J.A.R.V.I.S.** , and connects it to your n8n backend.
 
 Go to [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) for the step by step Eleven Labs setup
 
@@ -84,7 +84,7 @@ Go to [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) for the step by step Elev
    - Set the method to `POST`
    - URL = the webhook URL from n8n
    - Add a body parameter:
-     - `query` (type: string) — maps to the user's spoken request
+     - `query` (type: string), maps to the user's spoken request
 
 4. **Select a Voice**
    - Choose or create a British male voice using the provided description in the setup file
@@ -114,7 +114,7 @@ Go to [Lovable Setup.md](Lovable%20Setup.md) for detailed instructions
    - Paste the `<elevenlabs-convai>` embed code you copied earlier
    - Ask Lovable to:
      - Center the widget
-     - Replace orb with an image (e.g., Jarvis icon)
+     - Replace the orb with an image (e.g., Jarvis icon)
      - Change “Start to call” to “Talk to Jarvis”
      - Set compact mode and apply dark/techy theme
 
@@ -131,7 +131,7 @@ Go to [Lovable Setup.md](Lovable%20Setup.md) for detailed instructions
 
 - Speak to Jarvis from the frontend
 - Ensure Eleven Labs receives the audio, transcribes it, and sends it to n8n
-- Check that n8n returns a response and it displays properly
+- Check that n8n returns a response, and it displays properly
 - Activate workflows to go live!
 
 ---
