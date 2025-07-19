@@ -37,8 +37,8 @@ This repo includes:
      - `Calendar Agent`
      - `Email Agent`
      - `Contact Agent`
-     - `Content Creator Agent`
-     - `Tavily Tool`
+     - `Research Agent`
+     
 
 3. **Insert Credentials**
    - Provide your:
