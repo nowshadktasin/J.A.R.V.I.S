@@ -65,6 +65,7 @@ Go to [n8n setup.md](n8n%20setup.md) to see the step by step n8n setup
 ## 🎙️ Step 2: Set Up Eleven Labs (The Voice)
 
 > Eleven Labs hosts the conversational AI personality — modeled after **J.A.R.V.I.S.** — and connects it to your n8n backend.
+
 Go to [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) for the step by step Eleven Labs setup
 
 ### ✅ Steps:
@@ -97,7 +98,8 @@ Go to [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) for the step by step Elev
 ## 🌐 Step 3: Set Up Lovable.dev (The Interface)
 
 > Lovable.dev builds your futuristic, voice-driven UI that users will interact with.
-Go to [Lovable Setup.md](Lovable%20Setup.md)
+
+Go to [Lovable Setup.md](Lovable%20Setup.md) for detailed instructions
 
 ### ✅ Steps:
 
