@@ -30,7 +30,7 @@ This repo includes:
 
 1. **Import Workflows**
    - Download all JSON files in the `n8n/` directory.
-   - Open n8n → click "Import from file" → import each JSON workflow.
+   -  n8n → click "Import from file" → import each JSON workflow.
 
 2. **Connect Agents**
    - The main workflow (`J.A.R.V.I.S Main Agent`) routes requests to child workflows:
@@ -133,7 +133,7 @@ This repo includes:
 - If you see errors in Eleven Labs, check:
   - Is the webhook active in n8n?
   - Did you switch from test URL to production?
-  - Are credentials (OpenAI/Tavily) added?
+  - Are credentials (Gemini/Tavily) added?
 - Add logging nodes in n8n for debugging.
 - Be explicit in the system prompt about when to use tools.
 
