@@ -1,9 +1,1 @@
-{
-  "workflows": {
-    "calendarAgent": { /* contents of Calendar Agent.json */ },
-    "contactAgent": { /* contents of Contact Agent.json */ },
-    "emailAgent": { /* contents of Email Agent.json */ },
-    "jarvisMainAgent": { /* contents of J.A.R.V.I.S Main Agent.json */ },
-    "researchAgent": { /* contents of Research Agent.json */ }
-  }
-}
+
