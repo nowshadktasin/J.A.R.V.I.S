@@ -14,11 +14,12 @@ This guide walks you through setting up each component in the correct order.
 ## 📦 Repository Contents
 
 This repo includes:
+This repo includes:
 
-- `n8n/` — JSON files for all necessary workflows (main agent and child tools)
-- `Eleven Labs Setup.md` — Full instructions to configure the voice agent
-- `n8n setup.md` — Full backend integration steps
-- `Lovable Setup.md` — Frontend integration process using Lovable.dev
+• [n8n/](n8n/) — JSON files for all necessary workflows (main agent and child tools)  
+• [Eleven Labs Setup.md](Eleven%20Labs%20Setup.md) — Full instructions to configure the voice agent  
+• [n8n setup.md](n8n%20setup.md) — Full backend integration steps  
+• [Lovable Setup.md](Lovable%20Setup.md) — Frontend integration process using Lovable.dev  
 
 ---
 
