@@ -26,7 +26,7 @@
         40,
         700
       ],
-      "id": "d1f7a0f7-a803-4075-9121-064fc7f72c94",
+      "id": "input your API",
       "name": "Email Agent"
     },
     {
@@ -64,7 +64,7 @@
         "url": "https://api.tavily.com/search",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "{\n    \"api_key\": \"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\",\n    \"query\": \"{searchTerm}\",\n    \"search_depth\": \"basic\",\n    \"include_answer\": true,\n    \"topic\": \"news\",\n    \"include_raw_content\": true,\n    \"max_results\": 3\n} ",
+        "jsonBody": "{\n    \"api_key\": \"input your API\",\n    \"query\": \"{searchTerm}\",\n    \"search_depth\": \"basic\",\n    \"include_answer\": true,\n    \"topic\": \"news\",\n    \"include_raw_content\": true,\n    \"max_results\": 3\n} ",
         "placeholderDefinitions": {
           "values": [
             {
@@ -213,7 +213,7 @@
         300,
         180
       ],
-      "id": "f70c94ae-f10d-4d22-a498-78dbe9fe74d9",
+      "id": "input your api",
       "name": "J.A.R.V.I.S"
     },
     {
