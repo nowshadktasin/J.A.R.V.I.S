@@ -61,10 +61,10 @@
       "parameters": {
         "toolDescription": "Use this tool to search the internet",
         "method": "POST",
-        "url": "https://api.tavily.com/search",
+        "url": "https://.tavily.com/search",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "{\n    \"api_key\": \"input your API\",\n    \"query\": \"{searchTerm}\",\n    \"search_depth\": \"basic\",\n    \"include_answer\": true,\n    \"topic\": \"news\",\n    \"include_raw_content\": true,\n    \"max_results\": 3\n} ",
+        "jsonBody": "{\n    \"_key\": \"input your \",\n    \"query\": \"{searchTerm}\",\n    \"search_depth\": \"basic\",\n    \"include_answer\": true,\n    \"topic\": \"news\",\n    \"include_raw_content\": true,\n    \"max_results\": 3\n} ",
         "placeholderDefinitions": {
           "values": [
             {
@@ -213,7 +213,7 @@
         300,
         180
       ],
-      "id": "input your api",
+      "id": "input your ",
       "name": "J.A.R.V.I.S"
     },
     {
@@ -247,7 +247,7 @@
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
-          "id": "vCQvlkvUklEviKYB",
+          "id": "input your api",
           "name": "Google Gemini(PaLM) Api account"
         }
       }
